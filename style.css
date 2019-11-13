@@ -1,0 +1,121 @@
+
+
+body {
+
+    background-color: #F7F9FC;
+    color: #575F7D;
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    line-height: normal;
+    margin: 0;
+}
+
+/*img {
+
+  width: 100px;
+}*/
+
+h1 {
+
+  font-size: 50px;
+  font-weight: 900;
+}
+
+h2, h3 {
+
+  font-size: 32px;
+  font-weight: 600;
+
+}
+
+a {
+  text-decoration: none;
+  color: #2A8EBB;
+  font-size: 16px;
+}
+
+a:hover {
+
+  color:#AEB5BD;
+}
+
+p {
+
+  font-size: 20px;
+}
+
+div {
+  display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.btn-blue {
+
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.card-white {
+
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.list-inline > li{
+  list-style: none;
+  display: inline-block;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px
+}
+
+#introduction.card-white{
+   border-radius: 50%;
+   margin: 20px 0px;
+   padding: 40px;
+}
+
+a .social {
+
+  font-size: 50px;
+
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+/* SOCIAL MEDIA */
+.fa-facebook-square:before {
+    content: "\f082";
+    font-size: 50;
+}
+
+.fa-github-square:before {
+    content: "\f092";
+    font-size: 50;
+}
